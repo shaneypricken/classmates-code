@@ -1,0 +1,40 @@
+// ssn.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    string user1;
+    int ssn1;
+    string user2;
+    int ssn2;
+
+
+    cout << "What is user 1's name?\n";
+    cin >> user1;
+
+    cout << "What is user 2's name?\n";
+    cin >> user2;
+
+    cout << "Now lets have some fun!" << endl;
+
+    cout << "What is user 1's Social Security Number!?1\n";
+    cin >> ssn1;
+    
+    cout << "And now what is user 2's Social Security Number?!!\n";
+    cin >> ssn2;
+
+    cout << "Very very nice" << endl;
+
+    if (ssn1 > ssn2) {
+        cout << user1 << " is better than " << user2 << " because his number is WAYYYYY bigger!" << endl;
+    }
+    else if (ssn2 > ssn1) {
+        cout << user2 << " is better than " << user1 << " because his number is WAYYYYY bigger!" << endl;
+    }
+    
+    
+}
+
